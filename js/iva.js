@@ -8,7 +8,7 @@
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
 
       if (target.length) {
-        gtag('config', 'UA-163300228-1', {'page_path': "2021/" + this.hash.slice(1)});
+        gtag('config', 'UA-163300228-1', {'page_path': "2022/challenge" + this.hash.slice(1)});
         $('html, body').animate({
           scrollTop: (target.offset().top)
         }, 1000, "easeInOutExpo");
