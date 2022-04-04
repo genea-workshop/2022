@@ -242,6 +242,33 @@ The GENEA Challenge seeks to advance scientific knowledge relating to automatic 
 	    Participants involved in joint projects or consortia who wish to submit multiple systems (e.g., an individual entry and a joint system) should contact the organisers in advance and receive approval first. We will try to accommodate all reasonable requests, provided the evaluation remains manageable. If the number of participating teams is small (e.g., less than five), the organisers may decide to permit multiple entries per team.<br>
             <br>
  
+
+	    <h3>Use of external data</h3>
+            <ul>
+			  <li> “External data” is defined as data, of any type, that is not part of the provided database. This includes, for example, raw recordings, structured databases, and pre-trained systems such as word vectors.</li>
+			  <li> For this year's challenge, only open external data – data that is available to the public free of charge (possibly after signing a licence) – may be used.
+</li>
+			  <li> All external data used in your system must be explicitly acknowledged by providing a citation and/or link in the paper accompanying your submission.</li>
+                          <li> You are allowed to use external data in any way you wish, subject to any exclusions or limitations given in these rules.</li>
+	    </ul>
+
+	    For <b>data pertaining to text and audio</b>, any external data may be used, as long as they satisfy the criteria above. There is no limitation on the amount of such data you may use.<br>
+
+	    For <b>motion data</b> (whether 2D, 3D, or video), no external motion data is permitted. The reason for this data restriction is that other behaviour-generation challenges have found that system performance often is limited by the amount of training data that can be ingested, which is not an interesting scientific conclusion to replicate.<br>
+         
+            Your system must make use of the provided motion data, but you may exclude parts of that data if you wish. Use of the provided audio or text transcripts is entirely optional and not compulsory, as is the use of external text and audio data.<br>
+         
+	    Please keep in mind that the point of the challenge is to gain better insight into the synthesis and perception of motion and gestures, not to see who has the best data and resources. Consequently, participants are strongly encouraged to share processed material they are using in their entries with other participants and with the organisers. Example data that may be valuable to share include: improved transcripts and alignments; motions from permitted external databases converted to the challenge format and retargeted to the challenge skeleton; denoised and reconstructed motion data; sub-selected data; bug fixes to baseline systems; etc. <br>
+
+
+            If you are in any doubt about how to apply these rules, please contact the organisers for clarification!
+
+	    <h3>Synthesising test motion</h3>
+	    Synthetic gesture motion must be submitted in the same format as that used by the challenge gesture database (BVH, same skeleton, frame rate, etc.). The organisers take no responsibility for any effects that may occur when processing motion that was not submitted in the correct format. <br>
+
+	    Manually tweaking the output motion is not allowed, since the idea is to evaluate how systems would perform in an unattended setting.<br>
+	    <br>
+
             
           </div>
         </div>
